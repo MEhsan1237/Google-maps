@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_map/screens/customInfowindow.dart';
+import 'package:google_map/screens/googleplacesscreen.dart';
+import 'package:google_map/screens/polygonescreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CustomInfoWindowfile(),
+      home: PolyGoneScreen(),
     );
   }
 }
