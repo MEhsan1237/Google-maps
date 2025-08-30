@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:google_map/screens/googlemapcreated.dart';
-import 'package:google_map/screens/manymarkers.dart';
+import 'package:google_map/screens/customInfowindow.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const ManyMarkers(),
+      home: CustomInfoWindowfile(),
     );
   }
 }
